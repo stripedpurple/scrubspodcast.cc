@@ -1,11 +1,11 @@
 <template>
   <div>
-    <b-navbar>
+    <b-navbar wrapper-class="container" spaced>
       <template slot="brand">
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
           <img
-            src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-            alt="Lightweight UI components for Vue.js based on Bulma"
+            src="/img/logo.png"
+            alt="Fake Doctors Real Friends"
           >
         </b-navbar-item>
       </template>
@@ -20,9 +20,18 @@
     <section class="main-content">
       <nuxt keep-alive/>
     </section>
+
+    <Player/>
   </div>
 </template>
 
 <script>
-export default {}
+import Player from "../components/Player";
+
+export default {
+  component: [
+    Player
+  ],
+  middleware: 'load-posts'
+}
 </script>

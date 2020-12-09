@@ -13,7 +13,7 @@
         </div>
 
         <div class="media-right">
-          <NuxtLink class="" :to="'/player/'+ id"><b-icon icon="play"/></NuxtLink>
+          <NuxtLink class="" :to="'/player/'+ id"><b-icon icon="play-circle"/></NuxtLink>
         </div>
       </div>
     </div>
