@@ -9,12 +9,9 @@
         </div>
         <div class="media-content">
           <p class="title is-6">{{title}}</p>
-          <NuxtLink class="subtitle is-size-6 has-text-primary" :to="'/player/'+ id">Listen Now</NuxtLink>
+          <NuxtLink class="subtitle is-size-6 has-text-primary" :to="'/player/'+ id" style="display: flex;align-items: center; margin-top: .5rem"><b-icon icon="play-circle"/> Listen Now</NuxtLink>
         </div>
 
-        <div class="media-right">
-          <NuxtLink class="" :to="'/player/'+ id"><b-icon icon="play-circle"/></NuxtLink>
-        </div>
       </div>
     </div>
   </div>
