@@ -3,7 +3,7 @@
     <div class="container">
       <div class="columns is-multiline">
         <div class="column">
-          <div class="columns is-multiline">
+          <div class="columns is-multiline is-justify-content-center">
             <div class="column is-full">
               <h1 class="title">Latest Episode</h1>
               <iframe allow="autoplay" width="100%" height="200"
@@ -162,7 +162,7 @@ export default {
               title: 'Twitter',
               icon: 'twitter',
               profileLink: 'https://twitter.com/VDOOZER'
-            },{
+            }, {
               title: 'YouTube',
               icon: 'youtube',
               profileLink: 'https://www.instagram.com/vdoozer/'
@@ -178,15 +178,15 @@ export default {
               title: 'Twitter',
               icon: 'twitter',
               profileLink: 'https://twitter.com/iHeartRadio'
-            },{
+            }, {
               title: 'YouTube',
               icon: 'youtube',
               profileLink: 'https://www.youtube.com/user/iHeartRadio'
-            },{
+            }, {
               title: 'Facebook',
               icon: 'facebook',
               profileLink: 'https://www.facebook.com/iheartradio'
-            },{
+            }, {
               title: 'Instagram',
               icon: 'instagram',
               profileLink: 'https://www.instagram.com/iHeartRadio/'
