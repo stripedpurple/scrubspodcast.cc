@@ -2,7 +2,7 @@
   <div>
     <b-navbar wrapper-class="container" spaced>
       <template slot="brand">
-        <b-navbar-item tag="router-link" :to="{ path: '/' }">
+        <b-navbar-item href='/'>
           <img
             src="/img/logo.png"
             alt="Fake Doctors Real Friends"
@@ -12,6 +12,8 @@
       <template slot="end">
         <b-navbar-item href="/">Home</b-navbar-item>
         <b-navbar-item href="/bingo">Bingo</b-navbar-item>
+        <b-navbar-item href="https://cottonbureau.com/stores/fake-doctors-real-friends-with-zach-donald#/shop" target="_blank" rel="noreferrer nofollow">Merch</b-navbar-item>
+        <b-navbar-item href="https://www.iheart.com/content/2020-05-28-ringtones/" target="_blank" rel="noreferrer nofollow">Ringtones</b-navbar-item>
         <b-navbar-item href="/about">About</b-navbar-item>
         <b-navbar-item href="/contact">Contact</b-navbar-item>
       </template>

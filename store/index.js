@@ -21,3 +21,9 @@ export const actions = {
     commit('setPosts', posts.data)
   }
 }
+
+export const getters = {
+  getEpisodeById: (state) => (id) => {
+    return  state.posts.filter(x => x.id == id )[0]
+  }
+}
