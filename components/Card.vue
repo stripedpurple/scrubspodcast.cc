@@ -4,7 +4,7 @@
       <div class="media">
         <div class="media-left">
           <figure class="image is-48x48">
-            <img :src="img" :alt="title">
+            <img :src="img" :alt="title" loading=lazy>
           </figure>
         </div>
         <div class="media-content">

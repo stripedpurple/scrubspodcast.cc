@@ -2,7 +2,12 @@
   <div class="card">
     <div class="card-image">
       <figure class="image is-rounded">
-        <img :src="'/img/' + profileImg" alt="name">
+        <picture>
+          <source :srcSet="require('~/assets/img/' + profileImg + '?webp')" type="image/webp"  :alt="name" loading=lazy/>
+          <source :srcSet="require('~/assets/img/' + profileImg)" type="image/jpeg"  :alt="name" loading=lazy/>
+          <img :src="require('~/assets/img/' + profileImg)" :alt="name" loading=lazy/>
+        </picture>
+<!--        <img :src="'/img/' + profileImg" :alt="name" loading=lazy>-->
       </figure>
     </div>
     <div class="card-content">

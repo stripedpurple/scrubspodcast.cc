@@ -28,6 +28,7 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     '@nuxtjs/google-analytics',
+    '@aceforth/nuxt-optimized-images',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -46,5 +47,8 @@ export default {
   },
   googleAnalytics: {
     id: 'UA-82909329-4'
-  }
+  },
+  optimizedImages: {
+    optimizeImages: true
+  },
 }

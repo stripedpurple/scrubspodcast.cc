@@ -3,10 +3,11 @@
     <b-navbar wrapper-class="container" spaced>
       <template slot="brand">
         <b-navbar-item href='/'>
-          <img
-            src="/img/logo.png"
-            alt="Fake Doctors Real Friends"
-          >
+          <picture>
+            <source :srcSet="require('~/assets/img/logo.png?webp')" type="image/webp" loading=lazy/>
+            <source :srcSet="require('~/assets/img/logo.png')" type="image/jpeg" loading=lazy/>
+            <img :src="require('~/assets/img/logo.png')" loading=lazy/>
+          </picture>
         </b-navbar-item>
       </template>
       <template slot="end">
