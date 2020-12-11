@@ -2,7 +2,7 @@ import axios from "~/.nuxt/axios";
 
 export const state = () => ({
   currentlyPlaying: 0,
-  posts: {}
+  posts: []
 })
 
 export const mutations = {
@@ -17,7 +17,6 @@ export const mutations = {
 export const actions = {
   async getPosts ({ commit }) {
    let posts = await this.$axios.$get('https://us.api.iheart.com/api/v3/podcast/podcasts/60367049/episodes?sortBy=startDate-desc&limit=1000')
-    console.log(posts);
     commit('setPosts', posts.data)
   }
 }

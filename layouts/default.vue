@@ -24,17 +24,22 @@
       <nuxt/>
     </section>
 
-    <Player/>
+    <!-- <Player/> -->
   </div>
 </template>
 
 <script>
-import Player from "../components/Player";
+// import Player from "../components/Player";
 
 export default {
   component: [
-    Player
+    // Player
   ],
-  middleware: 'load-posts'
+  // middleware: 'load-posts'
+  mounted() {  
+    if (window.history.length <= 2) {
+      this.$store.dispatch('getPosts')
+    }
+  }
 }
 </script>

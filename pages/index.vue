@@ -6,12 +6,12 @@
           <div class="columns is-multiline is-justify-content-center">
             <div class="column is-full">
               <h1 class="title">Latest Episode</h1>
-              <iframe allow="autoplay" width="100%" height="200"
+              <iframe v-if="posts.length > 0" allow="autoplay" width="100%" height="200"
                       :src="'https://www.iheart.com/podcast/60367049/episode/' + posts[0].id + '/?embed=true'"
                       frameborder="0"></iframe>
               <div style="margin-top: 1rem">
                 <h2 class="is-size-4 has-text-weight-bold">Description</h2>
-                <div v-html="posts[0].description"></div>
+                <div v-if="posts.length > 0" v-html="posts[0].description"></div>
               </div>
               <br><br>
               <h2 class="is-size-4 has-text-weight-bold">
