@@ -83,6 +83,11 @@ export default {
               icon: 'twitter',
               profileLink: 'https://twitter.com/zachbraff'
             },
+            {
+              title: 'Spotify',
+              icon: 'spotify',
+              profileLink: 'https://open.spotify.com/user/zacharysilver'
+            },
           ]
         },
         {
