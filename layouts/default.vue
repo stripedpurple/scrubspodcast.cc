@@ -35,7 +35,6 @@ export default {
   component: [
     // Player
   ],
-  // middleware: 'load-posts'
   mounted() {  
     if (window.history.length <= 2) {
       this.$store.dispatch('getPosts')
