@@ -21,7 +21,7 @@
 
     </b-navbar>
     <section class="main-content">
-      <nuxt keep-alive/>
+      <nuxt/>
     </section>
 
     <Player/>
