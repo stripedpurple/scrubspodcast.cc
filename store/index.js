@@ -1,5 +1,3 @@
-import axios from "~/.nuxt/axios";
-
 export const state = () => ({
   currentlyPlaying: 0,
   posts: []
