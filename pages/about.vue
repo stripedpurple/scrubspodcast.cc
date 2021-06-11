@@ -18,7 +18,7 @@
             their
             favorite memories from
             filming. They’ll also connect with Scrubs super fans and feature beloved show cast members for exclusive
-            interviewsx</p>
+            interviews</p>
 
           <br><br>
           <h2 class="subtitle">This site</h2>
@@ -37,7 +37,7 @@
           <p>If you have any questions, or want to site anything added to the site feel free to reach out toi me or make
             a
             pull request</p>
-          <p><a href="https://github.com/viruscmd/scrubspodcast.cc">https://github.com/viruscmd/scrubspodcast.cc</a></p>
+          <p><a href="https://github.com/stripedpurple/scrubspodcast.cc">https://github.com/viruscmd/scrubspodcast.cc</a></p>
         </div>
       </div>
     </div>
